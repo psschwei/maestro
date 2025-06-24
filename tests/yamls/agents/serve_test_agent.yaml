@@ -1,0 +1,10 @@
+apiVersion: maestro.ai4quantum.com/v1alpha1
+kind: Agent
+metadata:
+  name: serve-test-agent
+spec:
+  framework: mock
+  description: A simple test agent for serving via HTTP
+  instructions: You are a helpful assistant. Respond to user prompts in a friendly manner.
+  input: text
+  output: text 
